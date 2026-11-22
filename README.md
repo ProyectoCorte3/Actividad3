@@ -136,6 +136,17 @@ Cada integrante puede participar en el análisis, revisar el código y registrar
 
 **Integrantes:** Juan Fernando Bueno Torres, Santiago Camacho Parra, Jonathan Pedroza Bernal
 
+
+## Nuestra aplicación en Streamlit
+
+Desarrollamos una aplicación web que permite analizar registros reales de camiones Scania y clasificarlos según su relación con el sistema de presión de aire (APS).
+
+La aplicación utiliza PCA para reducir las variables y un modelo de regresión logística para realizar las predicciones.
+
+**[Abrir nuestra aplicación en Streamlit](https://actividad3-ngxciwry9uexzaahrfigdl.streamlit.app/)**
+
+
+
 ## Licencia y fuente
 
 El código del proyecto se comparte bajo la [licencia MIT](LICENSE).
