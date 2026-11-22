@@ -1,0 +1,23 @@
+ASESORIA DE AVANCES - Actividad 3 - PCA
+Proyecto: Clasificación de fallas APS en camiones Scania
+Fuente: UCI Machine Learning Repository, dataset 421
+Algoritmo principal: PCA (20 componentes) + regresión logística
+Registros originales: 60000
+Variables originales: 170
+Celdas con valores faltantes: 850015
+Filas con al menos un faltante: 59409
+Duplicados completos detectados: 0
+Variables retenidas tras filtrar nulos: 162
+Componentes PCA: 20
+Varianza explicada acumulada: 65.24%
+Accuracy validación: 96.61%
+Precision fallas APS: 32.31%
+Recall fallas APS: 94.50%
+F1 fallas APS: 48.15%
+ROC AUC: 0.985
+Matriz confusión (TN,FP,FN,TP): 11404, 396, 11, 189
+Costo de errores (10 x FP + 500 x FN): 9460
+Archivo generado: models/modelo_pca_scania.joblib
+Aplicación: app/app.py (Streamlit)
+Repositorio GitHub: https://github.com/JuanFer2004/Actividad3
+Capturas del PC: PENDIENTE de agregar tras prueba local
