@@ -11,8 +11,8 @@ sys.path.insert(0, str(RAIZ))
 from src.preprocessing import leer_scania
 
 st.set_page_config(page_title='PCA | Fallas de camiones Scania', page_icon='🚚', layout='wide')
-st.title('🚚 Identificación de fallas APS en camiones Scania')
-st.caption('Prototipo académico — Primera asesoría de avances | PCA + clasificador logístico')
+st.title('Identificación de fallas APS en camiones Scania')
+st.caption('Prototipo académico| PCA + clasificador logístico')
 st.info('Las variables son indicadores operativos anonimizados por Scania. El resultado es una clasificación estadística, no un diagnóstico mecánico.')
 
 MODELO = RAIZ / 'models' / 'modelo_pca_scania.joblib'
@@ -100,4 +100,4 @@ with st.expander('Resultados de la validación del modelo'):
     st.caption('El accuracy aislado puede ser engañoso por el desbalance de clases. También se informa recall, precisión y costo de errores.')
 
 st.divider()
-st.caption('Fuente: UCI Machine Learning Repository, APS Failure at Scania Trucks (dataset 421). Prototipo local, aún no desplegado en la nube.')
+st.caption('Fuente: UCI Machine Learning Repository, APS Failure at Scania Trucks (dataset 421).')
